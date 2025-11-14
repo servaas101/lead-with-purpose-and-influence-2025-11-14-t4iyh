@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Leadership Academy Blog - Transform Your Skills. Lead With Confidence. Discover insights on authentic leadership, personal growth, and professional development.">
+    <meta name="keywords" content="leadership blog, professional development, authentic influence, personal growth, leadership tips">
+    <meta name="author" content="Leadership Academy">
+    <meta name="og:title" content="Leadership Academy Blog | Lead With Purpose and Influence">
+    <meta name="og:description" content="Discover insights on authentic leadership, personal growth, and professional development.">
+    <meta name="og:type" content="website">
+    <title>Blog | Lead With Purpose and Influence | Leadership Academy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .heading-primary {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+        .btn-outline {
+            background: transparent;
+            border: 2px solid #FF5A5F;
+            color: #FF5A5F;
+            transition: all 0.3s ease-in-out;
+            border-radius: 4px;
+            padding: 12px 24px;
+            font-weight: 600;
+        }
+        .btn-outline:hover {
+            background: #FF5A5F;
+            color: white;
+            transform: scale(1.02);
+            box-shadow: 0 4px 12px rgba(255, 90, 95, 0.3);
+        }
+        .btn-outline-secondary {
+            background: transparent;
+            border: 2px solid #FFD166;
+            color: #FFD166;
+            transition: all 0.3s ease-in-out;
+            border-radius: 4px;
+            padding: 12px 24px;
+            font-weight: 600;
+        }
+        .btn-outline-secondary:hover {
+            background: #FFD166;
+            color: #1A1A1A;
+            transform: scale(1.02);
+            box-shadow: 0 4px 12px rgba(255, 209, 102, 0.3);
+        }
+        .card-hover {
+            transition: all 0.3s ease-in-out;
+            border-radius: 8px;
+        }
+        .card-hover:hover {
+            transform: scale(1.02);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #FF5A5F 0%, #FFD166 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(255, 90, 95, 0.1) 0%, rgba(255, 209, 102, 0.1) 100%);
+        }
+        .section-divider {
+            background: linear-gradient(90deg, transparent, #FF5A5F, transparent);
+            height: 1px;
+        }
+        .text-light {
+            font-weight: 300;
+            letter-spacing: 0.3px;
+        }
+        .blog-card {
+            transition: all 0.3s ease-in-out;
+            border-radius: 8px;
+        }
+        .blog-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-lg flex items-center justify-center">
+                    <span class="text-white font-bold text-lg heading-primary">LA</span>
+                </div>
+                <span class="text-xl font-bold heading-primary text-[#1A1A1A]">Leadership</span>
+            </div>
+
+            <!-- Back Link -->
+            <div class="flex items-center">
+                <a href="https://servaas101.github.io/lead-with-purpose-and-influence-2025-11-14-t4iyh" class="text-[#1A1A1A] font-light hover:text-[#FF5A5F] transition-colors duration-300">
+                    ← Back
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Blog Header Section -->
+    <section class="hero-gradient py-16 md:py-24 lg:py-32 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center">
+                <h1 class="text-5xl md:text-6xl lg:text-7xl heading-primary text-[#1A1A1A] leading-tight mb-4">
+                    Our <span class="text-[#FF5A5F]">Blog</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-light text-[#1A1A1A] mb-6">
+                    Insights, strategies, and inspiration for authentic leadership
+                </p>
+                <p class="text-lg text-light text-gray-600 max-w-3xl mx-auto">
+                    Explore our collection of articles, case studies, and expert perspectives on building authentic influence, developing leadership excellence, and driving meaningful organizational change. Whether you're an emerging leader or an established executive, discover actionable insights to elevate your leadership journey.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Blog Post Section -->
+    <section class="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="mb-16">
+                <h2 class="text-3xl md:text-4xl heading-primary text-[#1A1A1A] mb-8">
+                    Featured Article
+                </h2>
+                
+                <!-- Featured Blog Card -->
+                <div class="blog-card bg-white shadow-md overflow-hidden">
+                    <div class="p-8 md:p-12">
+                        <div class="flex items-center gap-4 mb-6">
+                            <span class="inline-block bg-[#FF5A5F] text-white px-4 py-2 rounded-lg text-sm font-semibold">Featured</span>
+                            <span class="text-light text-gray-500 text-sm">November 14, 2025</span>
+                        </div>
+                        
+                        <h3 class="text-4xl md:text-5xl heading-primary text-[#1A1A1A] mb-6 leading-tight">
+                            Building Authentic Influence: Lead With Purpose and Impact
+                        </h3>
+                        
+                        <p class="text-lg text-light text-gray-600 mb-8 leading-relaxed">
+                            Modern leadership demands authentic influence—inspiring others through genuine connection rather than positional power. This comprehensive guide reveals how to build credibility through consistency, define your leadership purpose, and create psychological safety within teams. Authentic influence stems from self-awareness, aligned values, and transparent communication. Leaders who demonstrate competence, follow through on commitments, and foster trust naturally expand their impact across organizations. The journey requires clarifying core values, connecting individual purpose to organizational mission, and consistently demonstrating integrity. By investing in meaningful relationships and removing barriers between your stated values and actual behavior, you'll develop the authentic influence that drives engagement, innovation, and sustainable organizational success.
+                        </p>
+                        
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <a href="https://servaas101.github.io/lead-with-purpose-and-influence-2025-11-14-t4iyh/blog/building-authentic-influence-lead-with-purpose-and.html" class="btn-outline text-center font-semibold">
+                                Read Full Article
+                            </a>
+                            <button class="btn-outline-secondary text-center font-semibold">
+                                Share Article
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Grid Section -->
+    <section class="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="mb-16">
+                <h2 class="text-3xl md:text-4xl heading-primary text-[#1A1A1A] mb-4">
+                    Latest Articles
+                </h2>
+                <p class="text-lg text-light text-gray-600">
+                    Discover more insights on leadership development, personal growth, and professional excellence.
+                </p>
+            </div>
+
+            <!-- Blog Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Placeholder Blog Card 1 -->
+                <div class="blog-card bg-white shadow-md p-8">
+                    <div class="h-48 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-lg mb-6 opacity-20 flex items-center justify-center">
+                        <span class="text-gray-400 text-sm">Coming Soon</span>
+                    </div>
+                    <span class="text-light text-gray-500 text-sm">Coming Soon</span>
+                    <h3 class="text-2xl heading-primary text-[#1A1A1A] mb-3 mt-2">
+                        Article Title Coming Soon
+                    </h3>
+                    <p class="text-light text-gray-600 mb-6">
+                        More insightful content on leadership development and professional growth is on the way.
+                    </p>
+                    <a href="#" class="text-[#FF5A5F] font-semibold hover:text-[#FFD166] transition-colors duration-300">
+                        Coming Soon →
+                    </a>
+                </div>
+
+                <!-- Placeholder Blog Card 2 -->
+                <div class="blog-card bg-white shadow-md p-8">
+                    <div class="h-48 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-lg mb-6 opacity-20 flex items-center justify-center">
+                        <span class="text-gray-400 text-sm">Coming Soon</span>
+                    </div>
+                    <span class="text-light text-gray-500 text-sm">Coming Soon</span>
+                    <h3 class="text-2xl heading-primary text-[#1A1A1A] mb-3 mt-2">
+                        Article Title Coming Soon
+                    </h3>
+                    <p class="text-light text-gray-600 mb-6">
+                        More insightful content on leadership development and professional growth is on the way.
+                    </p>
+                    <a href="#" class="text-[#FF5A5F] font-semibold hover:text-[#FFD166] transition-colors duration-300">
+                        Coming Soon →
+                    </a>
+                </div>
+
+                <!-- Placeholder Blog Card 3 -->
+                <div class="blog-card bg-white shadow-md p-8">
+                    <div class="h-48 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-lg mb-6 opacity-20 flex items-center justify-center">
+                        <span class="text-gray-400 text-sm">Coming Soon</span>
+                    </div>
+                    <span class="text-light text-gray-500 text-sm">Coming Soon</span>
+                    <h3 class="text-2xl heading-primary text-[#1A1A1A] mb-3 mt-2">
+                        Article Title Coming Soon
+                    </h3>
+                    <p class="text-light text-gray-600 mb-6">
+                        More insightful content on leadership development and professional growth is on the way.
+                    </p>
+                    <a href="#" class="text-[#FF5A5F] font-semibold hover:text-[#FFD166] transition-colors duration-300">
+                        Coming Soon →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Newsletter Signup -->
+            <div class="mt-20 bg-gray-50 rounded-lg p-8 md:p-12 text-center">
+                <h3 class="text-3xl heading-primary text-[#1A1A1A] mb-4">
+                    Stay Updated
+                </h3>
+                <p class="text-lg text-light text-gray-600 mb-8 max-w-2xl mx-auto">
+                    Subscribe to our newsletter to receive the latest articles, leadership insights, and exclusive resources delivered directly to your inbox.
+                </p>
+                <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
+                    <input 
+                        type="email" 
+                        placeholder="Enter your email" 
+                        required
+                        class="flex-1 px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-[#FF5A5F] focus:outline-none transition-colors duration-300"
+                    >
+                    <button type="submit" class="btn-outline font-semibold">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Categories Section -->
+    <section class="py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl heading-primary text-[#1A1A1A] mb-4">
+                    Explore by Topic
+                </h2>
+                <p class="text-lg text-light text-gray-600">
+                    Browse articles organized by leadership themes and development areas.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Category Card 1 -->
+                <div class="bg-white rounded-lg p-8 text-center shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl heading-primary text-[#1A1A1A] mb-2">
+                        Self-Awareness
+                    </h3>
+                    <p class="text-light text-gray-600 text-sm">
+                        Develop deeper understanding of your leadership style and impact
+                    </p>
+                </div>
+
+                <!-- Category Card 2 -->
+                <div class="bg-white rounded-lg p-8 text-center shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl heading-primary text-[#1A1A1A] mb-2">
+                        Team Leadership
+                    </h3>
+                    <p class="text-light text-gray-600 text-sm">
+                        Build high-performing teams and foster collaborative cultures
+                    </p>
+                </div>
+
+                <!-- Category Card 3 -->
+                <div class="bg-white rounded-lg p-8 text-center shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl heading-primary text-[#1A1A1A] mb-2">
+                        Strategic Thinking
+                    </h3>
+                    <p class="text-light text-gray-600 text-sm">
+                        Master strategic planning and organizational vision
+                    </p>
+                </div>
+
+                <!-- Category Card 4 -->
+                <div class="bg-white rounded-lg p-8 text-center shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl heading-primary text-[#1A1A1A] mb-2">
+                        Personal Growth
+                    </h3>
+                    <p class="text-light text-gray-600 text-sm">
+                        Accelerate your professional development and career advancement
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="relative py-20 md:py-28 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center opacity-20" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=600&fit=crop'); background-position: center;"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-[#1A1A1A] via-[#1A1A1A] to-[#1A1A1A] opacity-85"></div>
+        
+        <div class="relative max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-5xl heading-primary text-white mb-6">
+                Ready to Transform Your Leadership?
+            </h2>
+            <p class="text-xl text-light text-gray-200 mb-8">
+                Join our comprehensive leadership academy and discover how to lead with authentic purpose and lasting influence.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://servaas101.github.io/lead-with-purpose-and-influence-2025-11-14-t4iyh" class="btn-outline bg-[#FF5A5F] border-[#FF5A5F] text-white hover:bg-[#FF5A5F] hover:opacity-90 text-center font-semibold">
+                    Back to Academy
+                </a>
+                <a href="https://servaas101.github.io/lead-with-purpose-and-influence-2025-11-14-t4iyh" class="btn-outline border-white text-white hover:bg-white hover:text-[#1A1A1A] text-center font-semibold">
+                    Explore Programs
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#1A1A1A] text-white py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <!-- Brand Column -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-lg heading-primary">LA</span>
+                        </div>
+                        <span class="text-xl font-bold heading-primary">Leadership</span>
+                    </div>
+                    <p class="text-light text-gray-400">
+                        Transforming leaders, empowering organizations, changing the world.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg heading-primary text-white mb-4">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="https://servaas101.github.io/lead-with-purpose-and-influence-2025-11-14-t4iyh" class="text-light text-gray-400 hover:text-[#FF5A5F] transition-colors duration-300">Home</a>
+                        </li>
+                        <li>
+                            <a href="https://servaas101.github.io/lead-with-purpose-and-influence-2025-11-14-t4iyh#features" class="text-light text-gray-400 hover:text-[#FF5A5F] transition-colors duration-300">Features</a>
+                        </li>
+                        <li>
+                            <a href="https://servaas101.github.io/lead-with-purpose-and-influence-2025-11-14-t4iyh#testimonials" class="text-light text-gray-400 hover:text-[#FF5A5F] transition-colors duration-300">Testimonials</a>
+                        </li>
+                        <li>
+                            <a href="https://servaas101.github.io/lead-with-purpose-and-influence-2025-11-14-t4iyh#faq" class="text-light text-gray-400 hover:text-[#FF5A5F] transition-colors duration-300">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div>
+                    <h4 class="text-lg heading-primary text-white mb-4">Resources</h4>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="#" class="text-light text-gray-400 hover:text-[#FF5A5F] transition-colors duration-300">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-light text-gray-400 hover:text-[#FF5A5F] transition-colors duration-300">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-light text-gray-400 hover:text-[#FF5A5F] transition-colors duration-300">Terms of Service</a>
+                        </li>
+                        <li>
+                            <a href="mailto:leaddershipacademy@leaddership.co.za" class="text-light text-gray-400 hover:text-[#FF5A5F] transition-colors duration-300">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Social Media -->
+                <div>
+                    <h4 class="text-lg heading-primary text-white mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center hover:bg-[#FF5A5F] transition-colors duration-300" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center hover:bg-[#FF5A5F] transition-colors duration-300" aria-label="Twitter">
+                            <i class="fab fa-twitter text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center hover:bg-[#FF5A5F] transition-colors duration-300" aria-label="Facebook">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center hover:bg-[#FF5A5F] transition-colors duration-300" aria-label="Instagram">
+                            <i class="fab fa-instagram text-white"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-divider mb-8"></div>
+
+            <div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+                <p class="text-light text-gray-400 mb-4 md:mb-0">
+                    &copy; 2025 Leadership Academy. All rights reserved.
+                </p>
+                <p class="text-light text-gray-400">
+                    Empowering leaders worldwide | <a href="mailto:leaddershipacademy@leaddership.co.za" class="text-[#FF5A5F] hover:text-[#FFD166] transition-colors duration-300">leaddershipacademy@leaddership.co.za</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Newsletter Form Handling
+            const newsletterForm = document.querySelector('form');
+            if (newsletterForm) {
+                newsletterForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const emailInput = this.querySelector('input[type="email"]');
+                    if (emailInput.value) {
+                        alert('Thank you for subscribing! Check your email for confirmation.');
+                        emailInput.value = '';
+                    }
+                });
+            }
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
